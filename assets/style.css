@@ -37,25 +37,26 @@ header {
 
 .cocktail__h2 {
   font: bold 30px "arial";
-  margin: 40px 0px 30px 40px;
+  margin: 40px 0px 30px 25px;
 }
 
 .cocktail__h3 {
   font: bold 20px "arial";
   border: 3px solid;
-  width: 300px;
+  width: 230px;
   padding: 10px 30px 10px 30px;
-  margin: 0px 0px 20px 40px;
+  margin: 0px 0px 20px 25px;
 }
 
 .cocktail_name {
   font: 18px "arial";
-  margin: 20px 0px 10px 40px;
+  margin: 20px 0px 10px 25px;
 }
 .recipes {
   font: 10px "arial";
-  margin: -5px 0px 5px 40px;
+  margin: -5px 0px 5px 30px;
 }
 .u_list {
   margin-bottom: 50px;
+  width: 300px;
 }
