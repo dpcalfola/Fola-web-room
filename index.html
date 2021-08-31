@@ -3,29 +3,39 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fola's web room</title>
     <link rel="stylesheet" href="./assets/style.css" />
-    <title>FOLA Web Room</title>
   </head>
   <body>
-    <header class="header">
-      <div class="header__logo">
-        <a href="./index.html">
-          <h1>FOLA'S WEB ROOM</h1>
-        </a>
-      </div>
+    <div id="grid">
+      <div id="grid_header">
+        <h1><a href="index.html" class="nav_active">FOLA'S WEB ROOM</a></h1>
 
-      <nav class="header__nav">
         <ul>
-          <li><a href="#">PROFILE CARD</a></li>
-          <li><a href="#">PAGE LINKS</a></li>
-          <li>
-            <a href="./assets/index_cocktail_recipes.html">COCKTAIL RECIPES</a>
+          <li class="nav">
+            <a href="./assets/profile_card_index.html">PROFILE CARD</a>
           </li>
-
-          <li><a href="#">TO DO LIST</a></li>
+          <li class="nav">
+            <a href="./assets/page_links_index.html">PAGE LINKS</a>
+          </li>
+          <li class="nav">
+            <a href="./assets/cocktail_recipes_index.html">COCKTAIL RECIPES</a>
+          </li>
+          <li class="nav">
+            <a href="./assets/to_do_list_index.html">TO DO LIST</a>
+          </li>
         </ul>
-      </nav>
-    </header>
+      </div>
+      <div id="grid_contents">
+        <div class="image_box">
+          <img
+            id="main_picture"
+            src="./assets/images/P20201108_224719584_AC392ED3-4E7F-419F-9AA2-1FC5E3AD6ACB.JPG"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
   </body>
 </html>
