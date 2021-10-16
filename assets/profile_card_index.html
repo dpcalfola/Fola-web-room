@@ -27,17 +27,25 @@
           <li class="nav"><a href="./to_do_list_index.html">TO DO LIST</a></li>
         </ul>
       </div>
+
+      <!-- contents  -->
+
       <div id="grid_contents" class="profile_grid">
         <div>
-          <img class="profile_img" src="./images/profilepicture.jpg" />
+          <img
+            class="profile_img"
+            src="./images/profilepicture.jpg"
+            alt="Profile face image"
+          />
         </div>
-
-        <!-- contents  -->
 
         <div class="profile_contents">
           <p id="profile_name">Fola</p>
           <p id="profile_introduce">Who want to be front-end developer</p>
-          <div id="profile_contacts">
+
+          <p id="show_contacts_text">Mouseover to see contacts !!</p>
+
+          <div id="profile_contacts" class="hidden">
             <a href="tel:010-0000-0000">tel: 010-0000-0000</a> <br />
             <a href="https://twitter.com/flor_sharp_" target="_blank"
               >twitter : @flor_sharp_</a
@@ -48,5 +56,6 @@
         </div>
       </div>
     </div>
+    <script src="./js/profileCard.js"></script>
   </body>
 </html>
