@@ -67,16 +67,22 @@ body {
   transform: translate(-50%, -50%);
 }
 
-#clock {
+#clock_div {
   position: absolute;
   right: 20px;
   bottom: 20px;
-  letter-spacing: 5px;
+  letter-spacing: 1px;
   /* left: 50%;
   top: 50%; 
   margin-top: 300px;
   transform: translate(-50%, -50%); */
   font-size: 30px;
+}
+
+#clock {
+  color: rgb(146, 135, 135);
+}
+#clock_greeting {
   color: rgb(146, 135, 135);
 }
 

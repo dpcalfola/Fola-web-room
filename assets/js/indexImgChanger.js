@@ -14,4 +14,3 @@ const randomImg = images[Math.floor(Math.random() * images.length)];
 indexImg.src = `./assets/images/${randomImg}`;
 
 console.log(randomImg);
-console.log(images.length);
