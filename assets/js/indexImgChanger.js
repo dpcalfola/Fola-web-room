@@ -12,3 +12,5 @@ const indexImg = document.getElementById("main_picture");
 const randomImg = images[Math.floor(Math.random() * images.length)];
 
 indexImg.src = `./assets/images/${randomImg}`;
+
+console.log(randomImg);
