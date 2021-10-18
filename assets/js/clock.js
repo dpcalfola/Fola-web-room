@@ -27,7 +27,7 @@ function getClock() {
   const seconds = String(dateAll.getSeconds()).padStart(2, "0");
   clock.innerText = ` ${day}, ${month} ${date} ${year}, time ${hours}:${minutes}:${seconds}`;
 
-  if (hours >= 2 && hours < 5) {
+  if (hours >= 1 && hours < 5) {
     clockGreeting.innerText = `Go to bed Fola !!`;
   } else if (hours >= 5 && hours < 12) {
     clockGreeting.innerText = `Good morning Fola !!`;

@@ -69,13 +69,9 @@ body {
 
 #clock_div {
   position: absolute;
-  right: 20px;
-  bottom: 20px;
+  right: 25px;
+  bottom: 25px;
   letter-spacing: 1px;
-  /* left: 50%;
-  top: 50%; 
-  margin-top: 300px;
-  transform: translate(-50%, -50%); */
   font-size: 30px;
 }
 
@@ -172,6 +168,9 @@ body {
   font-size: 18px;
   margin: 10px 0px 10px 30px;
   line-height: 110%;
+}
+.line_through {
+  text-decoration: line-through 2px rgb(229, 151, 151);
 }
 /* to do list css end */
 
