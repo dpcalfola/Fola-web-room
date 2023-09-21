@@ -1,0 +1,6 @@
+# System auto generate files
+.idea
+.vscode
+
+# Persnal user directory
+/personal_use
